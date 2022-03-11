@@ -1,4 +1,4 @@
-// clase padre
+// clase padre o superclase
 class Multimedia {
     constructor(url) {
         // En el constructor(función) agregar los parámetros
@@ -14,7 +14,7 @@ class Multimedia {
     }
 }
 
-// Clase hija
+// Clase hija o subclase
 class Reproductor extends Multimedia {
     constructor(url, id) {
         super(url) // accede a los parametros de la clase padre (Multimedia)
